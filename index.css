@@ -7,3 +7,9 @@ body {
   /* police dans le css */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+
+.lieu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
