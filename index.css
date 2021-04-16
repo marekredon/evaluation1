@@ -1,4 +1,4 @@
-html
+html,
 body {
 margin: 0;
 }
@@ -29,24 +29,29 @@ body {
 }
 
 .content {
-  background: #f8d9b6; 
   grid-area: c; 
+ 
 }
-#jeu {
-  /* background-size: 200px 200px; */
-  margin-left: auto;
-  margin-right: auto;
+.image {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://www.espritjeu.com/upload/image/sid-meier-s-civilization---une-aube-nouvelle-p-image-65405-grande.jpg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+ 
+
 .footer {
   background: #fae1ee; 
   grid-area: f;
 }
 
 #lettrine {
-  width: 99%;
+  width: 100%;
   border: 1px solid #999999;
   font-family:Arial, Helvetica, sans-serif;
-  font-size:36px;
+  font-size:24px;
   background-color: #999999;
   background: linear-gradient(to right,#A8AAAC, white 50%);
   margin: 0px;
@@ -58,7 +63,7 @@ body {
     height: 100px;
     background-image : url("b.jpg");
     float: left;
-    margin: 1px 5px 5px 1px;
+    margin: 1px 5px 5px 0px;
     background-size: 100% 100%;
   }
 
