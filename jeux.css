@@ -1,14 +1,95 @@
-/* .a, .b, .c, .d, .e {
-  height: 150px;
-  width: 150px;
-} */ 
-.jeux { 
-  display: grid; 
-  grid-template-columns: repeat(3, 1fr);  
-  grid-template-rows: repeat(4, 200px); 
-  background-color: beige; 
-  gap: 10px 
+body { 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+} 
+h3 {
+  margin-top: 25px;
 }
-.jeux > div { 
-  background-color: green; 
+i{
+  margin-top: 0px;
 }
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 10vh;
+}
+.age {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 13vw;
+  margin-right: 2vw;
+}
+.jeux div { 
+  background-color: rgb(255, 255, 255); 
+}
+
+ #a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+} 
+
+.jeux {
+  height: 85vh;
+  width: 99vw;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows:1fr 1fr 1fr ;
+  grid-template-areas:
+  "a b . g h"
+  "c d . i j"
+  "e f . k l";
+  gap: 3px;
+}
+
+#a {
+  grid-area: a; 
+  background-image: url("https://www.jedisjeux.net/media/cache/medium_width_fixed/uploads/img/abracada-quoi-1887-1442300141.jpg"); 
+ 
+}
+#b {
+  grid-area: b; 
+  background-image: url("https://www.lapouleapois.fr/51299-large_default/jeu-dinos-rigolos.jpg"); 
+}
+#c {
+  grid-area: c; 
+  background-image: url("https://plateaumarmots.fr/wp-content/uploads/2021/04/Vivez-l-Aventure-Le-Royaume-aux-100-malefices-400x445.jpg");
+}
+#d {
+  grid-area: d; 
+  background-image: url("http://www.ludigaume.be/Jeux/D/Donnant_Donnant/donnant_donnant_Boite.jpg");
+}
+#e {
+  grid-area: e;
+  background-image: url("https://www.vindjeu.eu/prd/wp-content/uploads/2019/12/29-panic-diner-cover.jpeg");
+}
+#f {
+  grid-area: f; 
+  background-image: url("https://www.events-tour.com/medias/images/jeu-de-societe-la-grande-evasion.jpg");
+}
+#g {
+  grid-area: g; 
+  background-image: url("https://ludovox-fr.exactdn.com/wp-content/uploads/2015/03/jeu-de-soci--t---civilisation-ludovox.jpg?strip=all&lossy=1&resize=168%2C238");
+}
+#h {
+  grid-area: h; 
+  background-image: url("https://lh3.googleusercontent.com/proxy/tfccJIrau2Kqn5na90yHkFI2Ilncai9hsYKf32u11LuNegXCLcqDJJvO-DBH42Jn0Fh_8-AAP41h_pUph28Fet61BewNwmvHP6wX4C2TJKfY");
+}
+#i {
+  grid-area: i; 
+  background-image: url("https://imaginaire.com/fr/images/ANDOR-JEU-DE-BASE-FRAN%C3%87AIS__3760175510700-Z.JPG");
+}
+#j {
+  grid-area: j; 
+  background-image: url("http://www.ludigaume.be/Jeux/S/Seasons/seasons_Boite.jpg");
+}
+#k {
+  grid-area: k; 
+  background-image: url("https://www.jeuxdenim.be/images/jeux/Troyes_large01.jpg");
+}
+#l {
+  grid-area: l; 
+  background-image: url("https://www.trukmuchspot.fr/images/articles/Space%20Alert/Space%20Alert-boite%20article.jpg");
+}
+
