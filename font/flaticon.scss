@@ -1,0 +1,29 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?9e28ce18c993b1eefc5798acc22d0028") format("truetype"),
+url("./flaticon.woff?9e28ce18c993b1eefc5798acc22d0028") format("woff"),
+url("./flaticon.woff2?9e28ce18c993b1eefc5798acc22d0028") format("woff2"),
+url("./flaticon.eot?9e28ce18c993b1eefc5798acc22d0028#iefix") format("embedded-opentype"),
+url("./flaticon.svg?9e28ce18c993b1eefc5798acc22d0028#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "github-logo-silhouette-in-a-square": "\f101",
+);
+
+.flaticon-github-logo-silhouette-in-a-square:before {
+    content: map-get($flaticon-map, "github-logo-silhouette-in-a-square");
+}
