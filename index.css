@@ -8,6 +8,23 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+.btn {
+  padding: 20px 0;
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+.btn:hover {
+  opacity: 1;
+  text-decoration:none; 
+  color: black;
+  border: 1px solid black;
+  font-weight: normal; 
+}
 .container {
   height: 100vh;
   width: 100vw;
