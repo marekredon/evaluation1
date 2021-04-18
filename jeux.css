@@ -63,10 +63,10 @@ Du coup, je l'ai juste fait pour #a
 #a {
   grid-area: a; 
   background-image: url("https://www.jedisjeux.net/media/cache/medium_width_fixed/uploads/img/abracada-quoi-1887-1442300141.jpg"); 
+  transition: all 1s ease-out;
 }
  #a:hover {
   transform: scale(1.1, 1.1);
-  transition: 0.9s;
 }  
 
 #b {
@@ -119,4 +119,47 @@ Du coup, je l'ai juste fait pour #a
   padding: 12px;
   /*comment faire pour que la bordure encadre le texte (et non la div) ?*/
   border: 1px solid black;
+}
+
+@media all and (max-width: 1550px) {
+  h1{
+    font-size: 30px;
+  }
+}
+
+@media all and (max-width: 1380px) {
+  .container {
+  width: 100%;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .fa-long-arrow-alt-right {
+    display: none;
+  }
+  .fa-long-arrow-alt-right, .fa-home {
+    font-size: 30px;
+    margin: 20px;
+  }
+  h1{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+ #pub{
+   font-size: 100%;
+ }
+ h1{
+  font-size: 15px;
+}
+}
+
+@media screen and (max-width: 550px) {
+  h1{
+    font-size: 11px;
+  } 
+  h3{
+  font-size: 12px;
+ }
 }

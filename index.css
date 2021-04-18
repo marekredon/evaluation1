@@ -105,7 +105,7 @@ body {
 .lieu {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .icons a{
@@ -115,26 +115,46 @@ body {
   margin-right: 15px;
 }
 
-@media all and (max-width: 1800px) {
-  .container-marek {
-    width: auto;
+@media all and (max-width: 1350px) {
+  .lieu {
+    width: 200px;
+    height: 150px;
+  }
+  h1{
+    font-size: 20px;
   }
 }
 
-@media all and (max-width: 800px) {
-   .card-product img  {
+@media all and (max-width: 1000px) {
+  h1{
     display: none;
   }
-}
-
-@media all and (max-width: 720px) {
-  .card-product7 img {
-  display: none;
- }
-}
-
-@media all and (max-width: 700px) {
-  .card-product3 img, .card-product4 img, .card-product5 img, .card-product1 img, .square {
-    display: none;
+  #lettrine {
+    font-size: 15px;
+  }
+  .icons a {
+    font-size: 20px; 
+  }
+  .image{
+    background-size: 100% 70%;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .image{
+    background-size: 100% 50%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lieu {
+    display: none;
+  }
+  .image{
+    background-size: 100% 40%;
+  }
+}
+
+
+
+
