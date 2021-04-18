@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeux de plateau</title>
+    
+    <title>jeux de plateaux</title>
+      <meta name="description" content="Jeux et événements" />
     <script src="https://kit.fontawesome.com/f7576231fa.js" crossorigin="anonymous"></script>
     <!-- meta données carousel tailwind-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -20,11 +22,12 @@
 
   <body>
     <div class="header">
+      <a href="index.html"><i class="fas fa-home fa-5x"></i></a> 
       <h3>Pendant que vous jetez un oeil sur les jeux, une musique sympa vous accompagne !
       </h3>
       <i class="fas fa-long-arrow-alt-right fa-5x"></i>
-      <!-- mettre autoplay après controls -->
-      <audio controls>
+      <!-- enlever autoplay pour pas de démarrage au chargement -->
+      <audio controls >
         <source src="zik.mp3" type="audio/mpeg">Votre navigateur ne semble pas compatible avec le lecteur audio
       </audio>
     </div>
@@ -36,8 +39,12 @@
 
  <!-- grid des 12 jeux -->
     <div class="jeux"> 
-     
-      <div id="a"><a href="https://www.jeuxdenim.be/jeu-AbracadaQuoi"></a></div> 
+     <!-- lien vers le jeu (juste pour #a) avec target_blank avec infobulle pas réussi à mettre en place-->
+      <div id="a">
+        <!-- <a href="https://www.jeuxdenim.be/jeu-AbracadaQuoi" title="site du jeu" target="_blank">
+      <img src="https://www.jedisjeux.net/media/cache/medium_width_fixed/uploads/img/abracada-quoi-1887-1442300141.jpg"></a> -->
+      </div> 
+
       <div id="b"></div> 
       <div id="c"></div>  
       <div id="d"></div>   
@@ -50,14 +57,15 @@
       <div id="k"></div> 
       <div id="l"></div> 
     </div>
-      <h1>Et voici ici les évênements prochains où l'asso aura un stand</h1>
-    
+    <h2 id="pub">Et voici ici les prochains événements (notre petite page publicitaire) où l'asso aura un stand</h2>
+     
+    <a name="carousel"></a>
 <!-- code du carousel rose : https://web2tailwind.com/component/carousel -->
     <class="bg-gray-100" style="font-family:Roboto">
     <div class="w-2/5 mx-auto my-0 bg-white">
         <div id="slider" class="swiper-container w-full">
             <div class="swiper-wrapper">
-                <!-- évênement 1 -->
+                <!-- événement 1 -->
                 <div class="swiper-slide bg-contain bg-no-repeat bg-center shadow-lg" style="background-image: url('http://www.jeu-tu-ille.fr/wp-content/uploads/2016/10/affiche-bazouges-Jeu-tu-Ille-2016-2017.jpg');">
                     <div class="container mx-auto px-6 md:px-20 py-1">
                         <div class="w-full md:w-1/2">
@@ -72,7 +80,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- évênement 2 -->
+                <!-- événement 2 -->
                 <div class="swiper-slide bg-contain bg-no-repeat bg-center shadow-lg" style="background-image: url('https://www.ville-vichy.fr/uploads/vichy/actualites/2020/affiche-festival-des-jeux-2020.jpg');">
                   <div class="container mx-auto px-6 md:px-20 py-5">
                       <div class="w-full md:w-1/2">
@@ -87,7 +95,7 @@
                       </div>
                   </div>
                 </div>
-                <!-- évênement 3 -->
+                <!-- événement 3 -->
                 <div class="swiper-slide bg-contain bg-no-repeat bg-center shadow-lg" style="background-image: url('https://3.bp.blogspot.com/-dBb9Dg3ZqwA/XEmmLZ1mRwI/AAAAAAAAAg0/ZW11ImTcKGUAYKZ_PTNazDH7o8Qc3Yr9gCLcBGAs/s640/affiche%2Bfestival%2Bde%2Bjeux%2B2019%2BA3%25281%2529.jpg');">
                   <div class="container mx-auto px-6 md:px-20 py-5">
                       <div class="w-full md:w-1/2">

@@ -6,6 +6,10 @@ h1 {
   margin-top: 50px;
   text-align: center;
 }
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
 h3 {
   margin-top: 25px;
 }
@@ -22,12 +26,11 @@ i{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 13vw;
-  margin-right: 2vw;
+  margin-left: 7vw;
+  margin-right: 1vw;
 }
 .jeux div { 
   background-color: rgb(255, 255, 255); 
-  
 }
 
 #a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l {
@@ -54,6 +57,7 @@ Du coup, je l'ai juste fait pour #a
   "c d . i j"
   "e f . k l";
   gap: 10px;
+  padding-bottom: 30px;
 }
 
 #a {
@@ -110,3 +114,9 @@ Du coup, je l'ai juste fait pour #a
   background-image: url("https://www.trukmuchspot.fr/images/articles/Space%20Alert/Space%20Alert-boite%20article.jpg");
 }
 
+#pub {
+  background-color: sandybrown;
+  padding: 12px;
+  /*comment faire pour que la bordure encadre le texte (et non la div) ?*/
+  border: 1px solid black;
+}

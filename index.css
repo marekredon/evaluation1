@@ -17,6 +17,7 @@ body {
   font-weight: lighter;
   opacity: 0.6;
   transition: opacity 0.3s ease;
+  text-decoration: none;
 }
 .btn:hover {
   opacity: 1;
@@ -41,8 +42,12 @@ body {
 }
 
 .header {
-  background: #e9f5d6;
+  display: flex;
+  flex-direction: column;
+  background: #d8d0cb;
   grid-area: h; 
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .content {
@@ -56,8 +61,10 @@ body {
 } */
 
 .image {
-  height: 87%;
-  width: 100%;
+  /* object-fit: cover; */
+  /* object-fit: contain; */
+  /* width: 100%; */
+  height: 86%;
   background-image: url("https://www.espritjeu.com/upload/image/sid-meier-s-civilization---une-aube-nouvelle-p-image-65405-grande.jpg"); 
   background-repeat: no-repeat;
   background-position: center;
@@ -87,9 +94,12 @@ body {
   }
 
 .footer {
+  display: flex;
   grid-area: f;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .lieu {
@@ -103,4 +113,28 @@ body {
   font-size: 35px;
   margin-left: 15px;
   margin-right: 15px;
+}
+
+@media all and (max-width: 1800px) {
+  .container-marek {
+    width: auto;
+  }
+}
+
+@media all and (max-width: 800px) {
+   .card-product img  {
+    display: none;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .card-product7 img {
+  display: none;
+ }
+}
+
+@media all and (max-width: 700px) {
+  .card-product3 img, .card-product4 img, .card-product5 img, .card-product1 img, .square {
+    display: none;
+  }
 }
