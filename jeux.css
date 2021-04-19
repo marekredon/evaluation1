@@ -62,7 +62,7 @@ Du coup, je l'ai juste fait pour #a
 
 #a {
   grid-area: a; 
-  background-image: url("https://www.jedisjeux.net/media/cache/medium_width_fixed/uploads/img/abracada-quoi-1887-1442300141.jpg"); 
+  background-image: url(https://www.jedisjeux.net/media/cache/medium_width_fixed/uploads/img/abracada-quoi-1887-1442300141.jpg); 
   transition: all 1s ease-out;
 }
  #a:hover {
@@ -71,47 +71,47 @@ Du coup, je l'ai juste fait pour #a
 
 #b {
   grid-area: b; 
-  background-image: url("https://www.lapouleapois.fr/51299-large_default/jeu-dinos-rigolos.jpg"); 
+  background-image: url(https://www.lapouleapois.fr/51299-large_default/jeu-dinos-rigolos.jpg); 
 }
 #c {
   grid-area: c; 
-  background-image: url("https://plateaumarmots.fr/wp-content/uploads/2021/04/Vivez-l-Aventure-Le-Royaume-aux-100-malefices-400x445.jpg");
+  background-image: url(https://plateaumarmots.fr/wp-content/uploads/2021/04/Vivez-l-Aventure-Le-Royaume-aux-100-malefices-400x445.jpg);
 }
 #d {
   grid-area: d; 
-  background-image: url("http://www.ludigaume.be/Jeux/D/Donnant_Donnant/donnant_donnant_Boite.jpg");
+  background-image: url(http://www.ludigaume.be/Jeux/D/Donnant_Donnant/donnant_donnant_Boite.jpg);
 }
 #e {
   grid-area: e;
-  background-image: url("https://www.vindjeu.eu/prd/wp-content/uploads/2019/12/29-panic-diner-cover.jpeg");
+  background-image: url(https://www.vindjeu.eu/prd/wp-content/uploads/2019/12/29-panic-diner-cover.jpeg);
 }
 #f {
   grid-area: f; 
-  background-image: url("https://www.events-tour.com/medias/images/jeu-de-societe-la-grande-evasion.jpg");
+  background-image: url(https://www.events-tour.com/medias/images/jeu-de-societe-la-grande-evasion.jpg);
 }
 #g {
   grid-area: g; 
-  background-image: url("https://ludovox-fr.exactdn.com/wp-content/uploads/2015/03/jeu-de-soci--t---civilisation-ludovox.jpg?strip=all&lossy=1&resize=168%2C238");
+  background-image: url(https://ludovox-fr.exactdn.com/wp-content/uploads/2015/03/jeu-de-soci--t---civilisation-ludovox.jpg?strip=all&lossy=1&resize=168%2C238);
 }
 #h {
   grid-area: h; 
-  background-image: url("https://www.vindjeu.eu/prd/wp-content/uploads/2015/05/1064-Mexica-1.jpg");
+  background-image: url(https://www.vindjeu.eu/prd/wp-content/uploads/2015/05/1064-Mexica-1.jpg);
 }
 #i {
   grid-area: i; 
-  background-image: url("https://imaginaire.com/fr/images/ANDOR-JEU-DE-BASE-FRAN%C3%87AIS__3760175510700-Z.JPG");
+  background-image: url(https://imaginaire.com/fr/images/ANDOR-JEU-DE-BASE-FRAN%C3%87AIS__3760175510700-Z.JPG);
 }
 #j {
   grid-area: j; 
-  background-image: url("http://www.ludigaume.be/Jeux/S/Seasons/seasons_Boite.jpg");
+  background-image: url(http://www.ludigaume.be/Jeux/S/Seasons/seasons_Boite.jpg);
 }
 #k {
   grid-area: k; 
-  background-image: url("https://www.jeuxdenim.be/images/jeux/Troyes_large01.jpg");
+  background-image: url(https://www.jeuxdenim.be/images/jeux/Troyes_large01.jpg);
 }
 #l {
   grid-area: l; 
-  background-image: url("https://www.trukmuchspot.fr/images/articles/Space%20Alert/Space%20Alert-boite%20article.jpg");
+  background-image: url(https://www.trukmuchspot.fr/images/articles/Space%20Alert/Space%20Alert-boite%20article.jpg);
 }
 
 #pub {
@@ -163,3 +163,5 @@ Du coup, je l'ai juste fait pour #a
   font-size: 12px;
  }
 }
+
+
