@@ -40,11 +40,23 @@ i{
 } 
 /* je ne comprends pas pourquoi je ne peux appliquer le hover ainsi aux 12 images
 Du coup, je l'ai juste fait pour #a 
-
- #a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l:hover {
+*/
+/*
+#a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover, 
+ #g:hover, #h:hover, #i:hover, #j:hover, #k:hover, #l:hover {
   transform: scale(1.1, 1.1);
   transition: 0.9s;
-}   */
+}   
+*/
+div.jeux a:hover { /* tout les <a>  qui sont dans <div class="jeux"> */
+  transform: scale(1.1, 1.1);
+  transition: 0.9s;
+}
+
+div.jeux a {
+  transition: all 1s ease-out;
+}
+
 
 .jeux {
   height: 85vh;
@@ -63,16 +75,15 @@ Du coup, je l'ai juste fait pour #a
 #a {
   grid-area: a; 
   background-image: url(https://www.jedisjeux.net/media/cache/medium_width_fixed/uploads/img/abracada-quoi-1887-1442300141.jpg); 
-  transition: all 1s ease-out;
+  
 }
- #a:hover {
-  transform: scale(1.1, 1.1);
-}  
 
 #b {
   grid-area: b; 
   background-image: url(https://www.lapouleapois.fr/51299-large_default/jeu-dinos-rigolos.jpg); 
 }
+
+
 #c {
   grid-area: c; 
   background-image: url(https://plateaumarmots.fr/wp-content/uploads/2021/04/Vivez-l-Aventure-Le-Royaume-aux-100-malefices-400x445.jpg);
