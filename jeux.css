@@ -39,21 +39,26 @@ i{
   background-position: center; 
 } 
 
-/*
-#a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover, 
- #g:hover, #h:hover, #i:hover, #j:hover, #k:hover, #l:hover {
-  transform: scale(1.1, 1.1);
-  transition: 0.9s;
+
+
+/* ligne 45 à 59 : essais de hover, transition */
+#c:hover, #d:hover, #e:hover, #f:hover, #g:hover, 
+#h:hover, #i:hover, #j:hover, #k:hover, #l:hover {
+  transform: rotate(360deg);/*on peut mettre un - pour tourner dans l'autre sens*/
+  transition: 0.7s;
 }   
-*/
-div.jeux a:hover { /* tout les <a>  qui sont dans <div class="jeux"> */
-  transform: scale(1.1, 1.1);
-  transition: 0.9s;
+
+div.jeux a:hover { /* tous les <a> qui sont dans <div class="jeux"> */
+  transition: 0.5s;
+  /* overflow: hidden;  */
+  transform: scale(1.1, 1.1) 
 }
 
 div.jeux a {
   transition: all 1s ease-out;
 }
+
+
 
 .jeux {
   height: 85vh;
@@ -68,6 +73,7 @@ div.jeux a {
   gap: 10px;
   padding-bottom: 30px;
 }
+
 
 #a {
   grid-area: a; 
