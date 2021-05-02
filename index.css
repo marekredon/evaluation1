@@ -1,10 +1,16 @@
+/* pour les fonts : aller sur ggolefonts, sélectionner la police
++ tous ses style clique sur @import, séléctionner tout sauf <style>
+et copier ça ici, puis le truc en-dessous : font-family: 'Comic Neue', cursive;
+à mettre où on veut l'appliquer
+y a : font-style, font-size, font-weight: 100 à 900 si ça existe*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 html, body {
 margin: 0;
 }
 
 body {
-  /* police dans le css */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Comic Neue', cursive;
 }
 
 /*boutons non gardés qui sont dans le header en complément des "i class"
@@ -62,6 +68,8 @@ body {
   background-color: #999999;
   background: linear-gradient(to right,#A8AAAC, white 50%);
   margin: 0px;
+  color: brown;
+  font-family: 'Comic Neue';
 }
   #lettrine span.lettrine {
     /* text-indent : 0px; */
@@ -72,6 +80,7 @@ body {
     float: left;
     margin: 1px 5px 5px 0px;
     background-size: 100% 100%;
+  
   }
 
 .image {
@@ -86,6 +95,9 @@ body {
 
   }
 .footer {
+  margin-left: auto; /* les 2 margin permettent de centrer la div*/
+  margin-right: auto;
+  width: 90%;
   display: flex;
   grid-area: f;
   display: flex;
@@ -93,6 +105,8 @@ body {
   align-items: center;
   justify-content: space-evenly;
   background: #fbfbe1; 
+  border: 5px solid black;
+/* existe : solid, dotted, dashed, double, groove, ridge(3d), inset, outset*/
 }
 
 .lieu {
@@ -110,6 +124,10 @@ div.lieu iframe{
   font-size: 35px;
   margin-left: 15px;
   margin-right: 15px;
+}
+a {
+  text-decoration: none; /*le souligné a disparu pour les liens*/
+  color: red; /* tous les a ont une couleur red*/
 }
 
 @media all and (max-width: 1350px) {

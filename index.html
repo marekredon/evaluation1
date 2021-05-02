@@ -17,22 +17,25 @@
     <div class="container"> 
       <div class="header">
         <!--lien ci-dessous avec infobulle et _blank (que pour le premier)-->
-        <a href="jeux.html"title="Jeux" target="_blank">
+        <a href="jeux.html" title="Jeux" target="_blank">
         <i class="fas fa-dice fa-5x"></i></a>
         <!--btn non gardé <a class="btn" href="jeux.html">Aller vers les jeux</a> -->
       
         <!-- création d'une ancre vers le carousel sur la page jeux -->
-        <a href="jeux.html#carousel"title="Evénements">
+        <a href="jeux.html#carousel" title="Evénements">
         <i class="far fa-calendar-alt fa-4x"></i></a>
         <!--btn non gardé <a class="btn" href="jeux.html">Aller vers les événements</a> -->
         
-        <a href="evenement.html"title="Futures rencontres">
+        <a href="evenement.html" title="Futures rencontres">
         <i class="fas fa-handshake fa-4x"></i></a>
         <!--btn non gardé <a class="btn" href="evenement.html">Futures rencontres</a> -->
       </div>
 
       <div class="content">
         <p id="lettrine">
+ <!-- span est un élément de type in-line : pratique pour du texte 
+ex : <p>Un <span class"blabla">qqchose</span> etc</p>
+dans css, on mettra .blabla et on pourra appliquer les trucs habituels sur qqchose-->
         <span class="lettrine"></span>
         onjour ami(e)s joueurs-ses- de tous horizons. Bienvenue sur le site de la ludothèque de notre village.
         <br>
@@ -59,7 +62,14 @@
           <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
         </div>
       </div>
-
     </div>
+    <h2>Cliquez <a href ="https://fr.wikipedia.org">ici</a> dans la phrase</h2>
+    <!-- lien vers un dossier enfant (sous dossier): href ="sous/jeux.html">   voire ="sous/sous1/jeux.html
+    lien vers un dossier parent : href ="../jeux.html">   voire =../../jeux.html"
+    -->
+    "Télécharger" un fichier du net :<a href="http://www.alsacreations.com/css/img/picto-quiz.png"
+    download="Pacman_Kiwi">Télécharger l'image</a>
+    <br>
+    <a href="b.jpg" download="enluminure">télécharger l'image de l'enluminure</a>
   </body>
 </html>
