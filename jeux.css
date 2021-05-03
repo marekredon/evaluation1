@@ -5,6 +5,7 @@ h1 {
   font-size: 50px;
   margin-top: 50px;
   text-align: center;
+  
 }
 h2 {
   font-size: 30px;
@@ -125,10 +126,14 @@ div.jeux a {
 }
 
 #pub {
+  display : inline-block;
+  /* display: inline-block et width: 65% par ex */
   background-color: sandybrown;
+  /* margin-left: auto;  il devrait être centré ! Bordel !*/
+  /* margin-right: auto; */
   padding: 12px;
-  /*comment faire pour que la bordure encadre le texte (et non la div) ?*/
   border: 1px solid black;
+ 
 }
 
 @media all and (max-width: 1550px) {

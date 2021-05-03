@@ -95,8 +95,8 @@ body {
 
   }
 .footer {
-  margin-left: auto; /* les 2 margin permettent de centrer la div*/
-  margin-right: auto;
+  margin: auto; /* ça permet de centrer la div*/
+  /* autre proposition margin-right: auto; + margin-left : auto */
   width: 90%;
   display: flex;
   grid-area: f;
