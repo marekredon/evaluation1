@@ -129,6 +129,25 @@ a {
   text-decoration: none; /*le souligné a disparu pour les liens*/
   color: red; /* tous les a ont une couleur red*/
 }
+/* balise hr ci-dessous*/
+hr {
+  border: none;
+  border-top: 3px double #333; /* à 2 px, la ligne est simple*/
+  color: rgb(38, 248, 70);
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 70%;
+}
+
+hr:after {
+  background: rgb(255, 255, 255);
+  content: 'blabla';
+  padding: 0 4px;
+  position: relative;
+  top: -3px;
+}
+
 
 @media all and (max-width: 1350px) {
   .lieu {

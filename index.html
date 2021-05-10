@@ -4,10 +4,13 @@
       <meta charset="utf-8">
       <title>jeux de plateaux</title>
       <meta name="description" content="l'asso de jeux pour tout le monde dans le pays de Redon" />
-      <meta name="robots" content="noindex, notranslate" /> <!-- c'est une eval, pas de mise en ligne -->
+      <meta name="robots" content="index, follow, max-snippet: -1, max-image-preview:large, max-video-preview: -1" />
+      <!-- voir aussi https://schema.org/docs/gs.html pour les microdonnées, google search console, 
+        voir micro.png pour microdonnées, et enfin https://developers.google.com/speed/pagespeed/insights/?hl=fr-->
       <!-- ligne ci-dessous pour le responsive -->
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" href="index.css" type="text/css" >
+      <!-- <link rel="stylesheet" href="index.css" type="text/css" > -->
+      <link href="index.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
       <script src="https://kit.fontawesome.com/f7576231fa.js" crossorigin="anonymous"></script>
       <!-- exemple de lien pour le choix d'une police (dans html) -->
       <!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'> -->
@@ -63,13 +66,14 @@ dans css, on mettra .blabla et on pourra appliquer les trucs habituels sur qqcho
         </div>
       </div>
     </div>
+     <hr> <!--voir code css pour le reste -->
     <h2>Cliquez <a href ="https://fr.wikipedia.org">ici</a> dans la phrase</h2>
     <!-- lien vers un dossier enfant (sous dossier): href ="sous/jeux.html">   voire ="sous/sous1/jeux.html
     lien vers un dossier parent : href ="../jeux.html">   voire =../../jeux.html"
     -->
     "Télécharger" un fichier du net :<a href="http://www.alsacreations.com/css/img/picto-quiz.png"
     download="Pacman_Kiwi">Télécharger l'image</a>
-    <br>
+    <hr>
     <a href="b.jpg" download="enluminure">télécharger l'image de l'enluminure</a>
   </body>
 </html>
