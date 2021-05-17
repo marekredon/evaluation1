@@ -44,9 +44,10 @@ dans css, on mettra .blabla et on pourra appliquer les trucs habituels sur qqcho
         <br>
         Bien que notre association soit domiciliée à la mairie, nous en sommes indépendants.
         Vous trouverez ici moult jeux de plateaux pour petits et grands. 
-        Suivez les liens pour nous découvrir !
+<!-- background-attachment: fixed; utile pour qqchose qui bouge pas malgré le scroll -->
+        <details><summary>cliquez ici</summary> Suivez les liens pour nous découvrir !</details>
         </p>
-
+Avancement du projet: <progress value="35" max="100"></progress>
         <div class="image" alt="Photo d'un jeu de plateau : Civilization de Sid Meier">
         </div>
       </div>
@@ -72,8 +73,25 @@ dans css, on mettra .blabla et on pourra appliquer les trucs habituels sur qqcho
     lien vers un dossier parent : href ="../jeux.html">   voire =../../jeux.html"
     -->
     "Télécharger" un fichier du net :<a href="http://www.alsacreations.com/css/img/picto-quiz.png"
-    download="Pacman_Kiwi">Télécharger l'image</a>
+    title="téléchargement" download="Pacman_Kiwi">Télécharger l'image</a>
     <hr>
     <a href="b.jpg" download="enluminure">télécharger l'image de l'enluminure</a>
+    <hr>
+
+    <figure>
+    <img id="truc" src="micro.png" alt="blabla">
+    <figcaption>un code de meta</figcaption>
+    </figure>
+
+    <!-- shape => x1, y1, x2, y2
+         circle => x, y, r
+         poly => x1, y1.....x10, y10
+      -->
+    <img id="truc2" usemap="#decoupage" src="b.jpg" alt="blabla">
+    <map name="decoupage">
+      <!-- <area href="micro.png" shape="rect" coords="0,0 200,100"> -->
+      <area href="micro.png" target="_blank" shape="poly" coords="0,0 200,0 0,300">
+    </map>
+  
   </body>
 </html>

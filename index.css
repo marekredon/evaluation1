@@ -148,6 +148,16 @@ hr:after {
   top: -3px;
 }
 
+#truc {
+  width: 500px;
+  height: auto;
+}
+
+#truc2 {
+  width: auto;
+  height: 300px;
+}
+
 
 @media all and (max-width: 1350px) {
   .lieu {
