@@ -1,4 +1,5 @@
 body { 
+  margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 } 
 h1 {
@@ -126,15 +127,31 @@ div.jeux a {
 }
 
 #pub {
-  display : inline-block;
-  /* display: inline-block et width: 65% par ex */
+  display : inline-block; 
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);  
+
   background-color: sandybrown;
-  /* margin-left: auto;  il devrait être centré ! Bordel !*/
-  /* margin-right: auto; */
   padding: 12px;
   border: 1px solid black;
- 
+  box-shadow: 0 0 10px black;
 }
+#essai{
+  width: 100%;
+  margin-left: auto;  
+  margin-right: auto; 
+  text-align: center;
+
+  background-color: sandybrown;  
+  padding: 12px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px black;
+}
+/*autre possibilité si on n'a pas de display mais ça donne pas trop bien :
+ width: 50%; margin-left: auto; margin-right: auto; text-align: center;
+*/
+
 
 @media all and (max-width: 1550px) {
   h1{
